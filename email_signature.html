@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/8617bd4957.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .main {
+    font-family: Gabriola;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 37em;
+    padding: 2em 0;
+  }
+
+  .main .img_container {
+    padding: 1.8em;
+    width: 30%;
+  }
+
+  .main img {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 8em;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .main .data_container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-right: 4px #1DA1F2 solid;
+    padding-right: 1em;
+  }
+
+  .main .title div {
+    color: black;
+    font-weight: 400;
+    word-wrap: break-word
+  }
+
+  .main .info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+
+  .main .info div span {
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+
+  .main .info div span:first-child {
+    color: #1DA1F2;
+  }
+
+  .main .info div span:last-child {
+    color: black;
+  }
+
+  .main .social_media {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+    width: 30%;
+    padding-left: 2em;
+    padding-top: 0.5em;
+  }
+
+  .main .social_media a {
+    width: 45px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+  }
+
+  .main .social_media span {
+    font-size: 2.3em;
+  }
+
+  .main .social_media span .fa-brands {
+    font-size: 0.6em;
+  }
+
+  .main .social_media span .fa-circle{
+    color: #1DA1F2;
+  }
+
+  .main .social_media span:hover .fa-circle{
+    color:#1da0f2ae;
+  }
+
+  @media screen and (max-width: 426px) {
+    .main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+      padding: 0;
+      width: 100%;
+    }
+
+    .main .img_container {
+      padding: 1.8em 0 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .main .data_container {
+      border-right: none;
+      width: 100%;
+      padding: 0;
+    }
+
+    .main .data_container:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 50%;
+    border: 2px solid #1DA1F2;
+    margin: 8px auto;
+   }
+
+    .main .data_container .title {
+      text-align: center;
+      line-height: 25px;
+      font-size: 30px;
+      margin: 0.5em auto;
+    }
+
+    .main .data_container .info {
+      margin: auto;
+    }
+
+    .main .social_media {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      gap: 5px;
+      width: 100%;
+    }
+
+    .main .social_media span {
+      font-size: 2em;
+    }
+  }
+</style>
+
+<body>
+  <div class="main">
+    <div class="img_container">
+      <img
+        src="https://lh3.googleusercontent.com/pw/AP1GczMUBc6bh9O-XDjhepmEEJnJor2CVPCIWUkRV6pC7vALQ7-_FeEgT-AZo1cn4Mkq0R6WHj4v_cB37ui_nC8WFtMGpdfQRFRgIE_sqeGPQnnEqoiuXyc=w2400" />
+    </div>
+    <div class="data_container">
+      <div class="title">
+        <div style="font-size: 36px; ">
+          Jane Doe
+        </div>
+        <div style="font-size: 16px;">
+          SEO | Marketing | Google
+        </div>
+      </div>
+      <div class="info">
+        <div>
+          <span>Phone:</span>
+          <span>+(206) 342-8631</span>
+        </div>
+        <div>
+          <span>Website:</span>
+          <span>www.doe.com</span>
+        </div>
+        <div>
+          <span>Email:</span>
+          <span>doe@gmail.com</span>
+        </div>
+        <div>
+          <span>Address:</span>
+          <span>William Ave, NY</span>
+        </div>
+      </div>
+    </div>
+    <div class="social_media">
+      <a href="#">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fa-solid fa-circle fa-stack-1x"></i>
+          <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse fa-2xs"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fa-solid fa-circle fa-stack-1x"></i>
+          <i class="fa-brands fa-twitter fa-stack-1x fa-inverse fa-2xs"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fa-solid fa-circle fa-stack-1x"></i>
+          <i class="fa-brands fa-youtube fa-stack-1x fa-inverse fa-xs"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fa-solid fa-circle fa-stack-1x"></i>
+          <i class="fa-brands fa-instagram fa-stack-1x fa-inverse fa-sm"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fa-solid fa-circle fa-stack-1x"></i>
+          <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse fa-sm"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
