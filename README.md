@@ -8,5 +8,5 @@ Simple email signature designed with Figma and created with HTML and CSS.
 # Source code
 [GitHub](https://github.com/LoraMS/EmailTemplates/blob/main/email_signature.html)
 
-#Live demo
+# Live demo
 
