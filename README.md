@@ -41,3 +41,13 @@ Simple email signature designed with Figma and created with HTML and Tailwind CS
 
 ## Live demo
 [Preview](https://lorams.github.io/EmailTemplates/email_signature_3.html)
+
+## Responsive Email Signature 4
+Simple email signature designed with Figma and created with HTML and Tailwind CSS.
+![responsive email signature](https://lh3.googleusercontent.com/pw/AP1GczO4uRj72RddoFjQF8mJPlodqzLmYmmj-jZeowNzNgNIdW3_F7eajYDBXjddMsrW9rxvh-6ZGf7PvLJx8UzNoNzuuLUVCOaaJ9194-IrtwnUx68665CFQlSffYqDNZQWfe4VToPcwRPGuQYyrP3OZemw=w400-h300-s-no-gm?authuser=0)
+
+## Source code
+[GitHub](https://github.com/LoraMS/EmailTemplates/blob/main/email_signature_4.html)
+
+## Live demo
+[Preview](https://lorams.github.io/EmailTemplates/email_signature_4.html)
