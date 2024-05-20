@@ -54,7 +54,7 @@ Simple email signature designed with Figma and created with HTML and Tailwind CS
 
 ## Responsive HTML Email
 Simple html email designed with Figma and created with HTML, Tailwind CSS and Maizzle.
-![responsive html email](https://lh3.googleusercontent.com/pw/AP1GczNKWhiLwTtFzHbwfo37Uj-QjrU6MILUc5Kzy6BR3_syTEgzE2MMeMgPaPM1dL9Um6h5fkXcG09vf3WSIm-w-Mw7BR651BDzdp_hMsflwmARGCpgsW84W4PCASj0bc9mkScPc6SLb8ioaST5sb3z7_4x=w400-h500-s-no-gm?authuser=0)
+![responsive html email](https://lh3.googleusercontent.com/pw/AP1GczNKWhiLwTtFzHbwfo37Uj-QjrU6MILUc5Kzy6BR3_syTEgzE2MMeMgPaPM1dL9Um6h5fkXcG09vf3WSIm-w-Mw7BR651BDzdp_hMsflwmARGCpgsW84W4PCASj0bc9mkScPc6SLb8ioaST5sb3z7_4x=w450-h500-s-no-gm?authuser=0)
 
 ## Source code
 [GitHub](https://github.com/LoraMS/EmailTemplates/blob/main/html_email_maizzle/build_production/transactional.html)
