@@ -71,3 +71,15 @@ Simple html email designed with Figma and created with HTML, Tailwind CSS and Ma
 
 ## Live demo
 [Preview](https://lorams.github.io/EmailTemplates/html_email_maizzle_1/build_production/transactional.html)
+
+
+
+## Responsive HTML Email 2
+Simple html email designed with Figma and created with HTML, Tailwind CSS and Maizzle.
+![responsive html email](https://lh3.googleusercontent.com/pw/AP1GczOBT_fidLcCpHCDWh3_-Vp-u8CXiaPY1GDbWuqYInoSrxm-eyJkUq1dSIRbgb2_o4EE9L5rFnvjsv_HJ6-N_g-bSBoQo-psOe2W3wqz8Fi-LUEXift1-rh3rIdOV27Esc5O5X55_nr7PKt4W0WB8bu7=w400-h300-s-no-gm?authuser=0)
+
+## Source code
+[GitHub](https://github.com/LoraMS/EmailTemplates/blob/main/html_email_maizzle_2/build_production/transactional.html)
+
+## Live demo
+[Preview](https://lorams.github.io/EmailTemplates/html_email_maizzle_2/build_production/transactional.html)
